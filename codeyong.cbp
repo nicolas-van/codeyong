@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="codeyong" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="sdlw\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\codeyong.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\CodeBlocks\devpacks\lib\libboost_prg_exec_monitor-mgw-mt-s-1_33_1.lib" />
+					<Add library="..\..\CodeBlocks\devpacks\lib\libboost_signals-mgw-mt-s-1_33_1.lib" />
+					<Add library="..\..\CodeBlocks\devpacks\lib\libSDL.dll.a" />
+					<Add library="..\..\CodeBlocks\devpacks\lib\libSDL_Image.a" />
+					<Add library="..\..\CodeBlocks\devpacks\lib\libSDLmain.a" />
+					<Add library="..\..\CodeBlocks\devpacks\lib\SDL_ttf.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\codeyong.exe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Application.cpp" />
+		<Unit filename="Application.hpp" />
+		<Unit filename="Minimax.hpp" />
+		<Unit filename="MoveException.cpp" />
+		<Unit filename="MoveException.hpp" />
+		<Unit filename="Plateau.cpp" />
+		<Unit filename="Plateau.hpp" />
+		<Unit filename="Renderer.cpp" />
+		<Unit filename="Renderer.hpp" />
+		<Unit filename="formatters.hpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="handlers.hpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="level.cpp" />
+		<Unit filename="level.hpp" />
+		<Unit filename="log_exception.hpp" />
+		<Unit filename="logger.cpp" />
+		<Unit filename="logger.hpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="logger_manager.cpp" />
+		<Unit filename="logger_manager.hpp" />
+		<Unit filename="logging_event.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sdlw.hpp" />
+		<Unit filename="sdlw_color.cpp" />
+		<Unit filename="sdlw_color.hpp" />
+		<Unit filename="sdlw_coordinate.hpp" />
+		<Unit filename="sdlw_events.cpp" />
+		<Unit filename="sdlw_events.hpp" />
+		<Unit filename="sdlw_exception.cpp" />
+		<Unit filename="sdlw_exception.hpp" />
+		<Unit filename="sdlw_font.cpp" />
+		<Unit filename="sdlw_font.hpp" />
+		<Unit filename="sdlw_font_low.cpp" />
+		<Unit filename="sdlw_font_low.hpp" />
+		<Unit filename="sdlw_init.cpp" />
+		<Unit filename="sdlw_init.hpp" />
+		<Unit filename="sdlw_pixel_format.cpp" />
+		<Unit filename="sdlw_pixel_format.hpp" />
+		<Unit filename="sdlw_rectangle.hpp" />
+		<Unit filename="sdlw_stream.cpp" />
+		<Unit filename="sdlw_stream.hpp" />
+		<Unit filename="sdlw_surface.cpp" />
+		<Unit filename="sdlw_surface.hpp" />
+		<Unit filename="sdlw_surface_low.cpp" />
+		<Unit filename="sdlw_surface_low.hpp" />
+		<Unit filename="unicode.cpp" />
+		<Extensions>
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

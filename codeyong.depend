@@ -1,0 +1,254 @@
+# depslib dependency file v1.0
+1174173186 source:d:\travail\programmation perso\codeyong\moveexception.cpp
+
+1163248584 source:d:\travail\programmation perso\codeyong\plateau.cpp
+	"Plateau.hpp"
+	<list>
+	<utility>
+	<boost/random.hpp>
+	<ctime>
+	"Minimax.hpp"
+
+1163248584 d:\travail\programmation perso\codeyong\plateau.hpp
+	<vector>
+	<iostream>
+	<stdexcept>
+
+1168446728 d:\travail\programmation perso\codeyong\minimax.hpp
+	<list>
+
+1165871506 source:d:\travail\programmation perso\codeyong\renderer.cpp
+	"Renderer.hpp"
+	<boost/lexical_cast.hpp>
+
+1165869536 d:\travail\programmation perso\codeyong\renderer.hpp
+	"Plateau.hpp"
+	"sdlw.hpp"
+	<iostream>
+
+1165866268 d:\travail\programmation perso\codeyong\sdlw.hpp
+	"sdlw_exception.hpp"
+	"sdlw_init.hpp"
+	"sdlw_events.hpp"
+	"sdlw_pixel_format.hpp"
+	"sdlw_rectangle.hpp"
+	"sdlw_font.hpp"
+
+1165866590 d:\travail\programmation perso\codeyong\sdlw_exception.hpp
+	<stdexcept>
+
+1165867820 d:\travail\programmation perso\codeyong\sdlw_init.hpp
+	"sdlw_exception.hpp"
+
+1165866166 d:\travail\programmation perso\codeyong\sdlw_events.hpp
+	<SDL/SDL.h>
+	"sdlw_exception.hpp"
+	<boost/signal.hpp>
+	<boost/cstdint.hpp>
+
+1163248584 d:\travail\programmation perso\codeyong\sdlw_pixelformat.hpp
+	<boost/weak_ptr.hpp>
+	<vector>
+	"sdlw_Color.hpp"
+	"stdint.h"
+	"sdlw_Surface.hpp"
+
+1165865724 d:\travail\programmation perso\codeyong\sdlw_color.hpp
+	<boost/cstdint.hpp>
+
+1166979104 d:\travail\programmation perso\codeyong\sdlw_surface.hpp
+	"sdlw_exception.hpp"
+	<boost/cstdint.hpp>
+	"sdlw_surface_low.hpp"
+	"sdlw_pixel_format.hpp"
+	"sdlw_rectangle.hpp"
+	<boost/shared_ptr.hpp>
+	<string>
+	<vector>
+	"sdlw_font.hpp"
+
+1163248584 d:\travail\programmation perso\codeyong\sdlw_surfacelow.hpp
+	<boost/utility.hpp>
+	<SDL/SDL.h>
+
+1165865568 d:\travail\programmation perso\codeyong\sdlw_rect.hpp
+	<boost/cstdint.hpp>
+
+1171460960 d:\travail\programmation perso\codeyong\sdlw_font.hpp
+	"sdlw_font_low.hpp"
+	<boost/shared_ptr.hpp>
+	"sdlw_exception.hpp"
+	<string>
+	"sdlw_surface.hpp"
+	"sdlw_color.hpp"
+
+1163248584 d:\travail\programmation perso\codeyong\sdlw_fontlow.hpp
+	<boost/utility.hpp>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+
+1165870026 source:d:\travail\programmation perso\codeyong\sdlw_color.cpp
+	"sdlw_color.hpp"
+	<SDL/SDL.h>
+	"sdlw_pixel_format.hpp"
+
+1165866624 source:d:\travail\programmation perso\codeyong\sdlw_events.cpp
+	"sdlw_events.hpp"
+
+1171460960 source:d:\travail\programmation perso\codeyong\sdlw_font.cpp
+	"sdlw_font.hpp"
+	<fstream>
+	<iostream>
+
+1163248584 d:\travail\programmation perso\codeyong\string_lexical_cast.hpp
+	<boost/lexical_cast.hpp>
+	<string>
+	<locale>
+
+1163248584 source:d:\travail\programmation perso\codeyong\sdlw_fontlow.cpp
+	"sdlw_FontLow.hpp"
+
+1163248584 source:d:\travail\programmation perso\codeyong\sdlw_pixelformat.cpp
+	"sdlw_PixelFormat.hpp"
+	<SDL/SDL.h>
+
+1163248584 source:d:\travail\programmation perso\codeyong\sdlw_rect.cpp
+
+1179085636 source:d:\travail\programmation perso\codeyong\sdlw_surface.cpp
+	"sdlw_surface.hpp"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<fstream>
+	"sdlw_stream.hpp"
+	<memory>
+
+1163248584 source:d:\travail\programmation perso\codeyong\sdlw_surfacelow.cpp
+	"sdlw_SurfaceLow.hpp"
+
+1165866638 source:d:\travail\programmation perso\codeyong\sdlw_exception.cpp
+	"sdlw_exception.hpp"
+	<SDL/SDL.h>
+	<string>
+
+1165867832 source:d:\travail\programmation perso\codeyong\sdlw_init.cpp
+	"sdlw_init.hpp"
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+
+1167046456 source:d:\travail\programmation perso\codeyong\sdlw_stream.cpp
+	"sdlw_stream.hpp"
+
+1174173174 d:\travail\programmation perso\codeyong\sdlw_stream.hpp
+	<fstream>
+	<SDL/SDL.h>
+
+1163248584 source:d:\travail\programmation perso\codeyong\string_lexical_cast.cpp
+	"string_lexical_cast.hpp"
+
+1174842912 source:d:\travail\programmation perso\codeyong\application.cpp
+	"Application.hpp"
+	<fstream>
+	<functional>
+	"logger.hpp"
+	"formatters.hpp"
+
+1174138320 d:\travail\programmation perso\codeyong\application.hpp
+	<string>
+	<vector>
+	"sdlw.hpp"
+	"Plateau.hpp"
+	"Renderer.hpp"
+	"logger.hpp"
+
+1174917138 source:d:\travail\programmation perso\codeyong\main.cpp
+	<string>
+	<vector>
+	"Application.hpp"
+	"logger.hpp"
+
+1167048086 d:\travail\programmation perso\codeyong\sdlw_font_low.hpp
+	<boost/utility.hpp>
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	<vector>
+
+1165868718 d:\travail\programmation perso\codeyong\sdlw_surface_low.hpp
+	<boost/utility.hpp>
+	<SDL/SDL.h>
+
+1165869232 d:\travail\programmation perso\codeyong\sdlw_pixel_format.hpp
+	<boost/weak_ptr.hpp>
+	<vector>
+	"sdlw_color.hpp"
+	<boost/cstdint.hpp>
+	"sdlw_surface.hpp"
+
+1167048040 source:d:\travail\programmation perso\codeyong\sdlw_font_low.cpp
+	"sdlw_font_low.hpp"
+
+1165868368 source:d:\travail\programmation perso\codeyong\sdlw_pixel_format.cpp
+	"sdlw_pixel_format.hpp"
+	<SDL/SDL.h>
+
+1165868836 source:d:\travail\programmation perso\codeyong\sdlw_surface_low.cpp
+	"sdlw_surface_low.hpp"
+
+1165865934 d:\travail\programmation perso\codeyong\sdlw_rectangle.hpp
+	<boost/cstdint.hpp>
+	"sdlw_coordinate.hpp"
+
+1174173150 d:\travail\programmation perso\codeyong\sdlw_coordinate.hpp
+	<boost/cstdint.hpp>
+
+1174842652 d:\travail\programmation perso\codeyong\logger.hpp
+	"level.hpp"
+	"handlers.hpp"
+	"log_exception.hpp"
+	<boost/signal.hpp>
+	<string>
+	<assert.h>
+	<sstream>
+	<memory>
+
+1174763456 d:\travail\programmation perso\codeyong\handlers.hpp
+	<string>
+	<fstream>
+	<iostream>
+	<boost/thread/mutex.hpp>
+	<boost/shared_ptr.hpp>
+
+1174769534 d:\travail\programmation perso\codeyong\formatters.hpp
+	<string>
+	<sstream>
+	"level.hpp"
+
+1174173228 source:d:\travail\programmation perso\codeyong\unicode.cpp
+	<string>
+	<locale>
+
+1174773820 d:\travail\programmation perso\codeyong\level.hpp
+	<string>
+	<climits>
+
+1174173198 source:d:\travail\programmation perso\codeyong\level.cpp
+	"level.hpp"
+
+1174842680 source:d:\travail\programmation perso\codeyong\logger.cpp
+	"logger.hpp"
+	"logger_manager.hpp"
+
+1174778452 source:d:\travail\programmation perso\codeyong\logger_manager.cpp
+	"logger_manager.hpp"
+
+1174776196 d:\travail\programmation perso\codeyong\logger_manager.hpp
+	"logger.hpp"
+	<boost/noncopyable.hpp>
+
+1174775934 d:\travail\programmation perso\codeyong\log_exception.hpp
+	<stdexcept>
+
+1174781918 d:\travail\programmation perso\codeyong\logging_event.hpp
+	"level.hpp"
+	"logger.hpp"
+	<string>
+
